@@ -1,0 +1,14 @@
+{
+  "name": "feishu-image-bot",
+  "version": "1.0.0",
+  "description": "飞书图片机器人 - AI分析图片并生成专业提示词",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.0",
+    "vercel": "^34.0.0"
+  }
+}
